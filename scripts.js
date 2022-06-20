@@ -11,3 +11,11 @@ while (i >= 1) {
 
 const myFruitSalad = ['apples','oranges','plums','peaches'];
 console.log(myFruitSalad[3]); // the last element using indexing
+
+//Create for loop that counts up to 20 from 1. Create an if condition that will only log the even values to the console.
+
+for (let i = 0; i <= 20; i++) {
+    if (i % 2 ==0) {
+        console.log(`The even value is ${i}`);
+    }
+};
